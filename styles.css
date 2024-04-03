@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+header img {
+    height: 44px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#fff;
+    padding: 36px;
+    border-radius: 12px;
+    box-shadow: 6px 6pxrgba(26, 26, 26, 0.514)b;
+}
+
+
+
+/* =================  INICIO SEÇÃO FORMULÁRIO ==================== */
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    padding: 20px;
+    background-color: #E7E7E7;
+    border-radius: 12px;
+}
+
+form input {
+    font-size: 16px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 6px;
+    border-bottom: 2px solid #000;
+}
+
+.bnt-salvar {
+    background-color: #009432;
+    color: #ffff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 3px;
+    padding: 20px 44px;
+    text-align: start;
+}
+
+.input-numero {
+    padding: 0 36px;
+    
+}
+
+.input-nome {
+    padding: 0 80px;
+}
+
+/* ================= FIM SEÇÃO FORMULÁRIO ==================== */
+
+
+/* ================= INICIO SEÇÃO TABELA ==================== */
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+}
+
+
+/* ================= FIM SEÇÃO TABELA ==================== */
